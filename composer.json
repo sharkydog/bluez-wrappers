@@ -1,0 +1,25 @@
+{
+  "name": "sharkydog/bluez-wrappers",
+  "description": "BlueZ tools wrappers for PHP CLI",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandar Dimitrov",
+      "email": "admin@sharkydog.info"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "sharkydog/private-emitter": "^1.0",
+    "react/event-loop": "^1.5",
+    "react/child-process": "^0.6.5"
+  },
+  "suggest": {
+    "sharkydog/logger": "Display messages other than errors and warnings"
+  },
+  "autoload": {
+    "psr-4": {
+      "SharkyDog\\BlueZ\\": "src/"
+    }
+  }
+}
